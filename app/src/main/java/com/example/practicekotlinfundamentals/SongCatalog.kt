@@ -1,7 +1,7 @@
 package com.example.practicekotlinfundamentals
 
 fun main() {
-    val anotherLoveSong = Song("Another Love","Tom Odell",2013,638_000_000)
+    val anotherLoveSong = Song("Another Love", "Tom Odell", 2013, 638_000_000)
     anotherLoveSong.printDesc()
     println(anotherLoveSong.isPopular)
 }
